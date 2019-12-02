@@ -1,6 +1,7 @@
 import React from 'react';
 import { Text, View, TouchableOpacity, ToastAndroid, TouchableWithoutFeedback } from 'react-native';
-import { Camera, Permissions } from 'expo';
+import * as Permissions from 'expo-permissions';
+import { Camera } from 'expo-camera';
 import ButtonGeneric from '../../components/buttonGeneric';
 import DisciplineContent from '../../app/domain/disciplineContent';
 import DisciplineContentService from '../../app/services/DisciplineContentService';
